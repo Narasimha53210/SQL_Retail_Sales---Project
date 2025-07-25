@@ -69,7 +69,7 @@ where
     quantiy >'3'
     order by transactions_id;
     
-#qury for to retrive total sales on each category
+#query for to retrive total sales on each category
 select category,
 sum(total_sale) as Total_sales,
 count(*) as Total_orders
